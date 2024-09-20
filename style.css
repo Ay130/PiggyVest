@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 63px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Poppins;
+    padding-left: 1.5rem;
+
+}
+
+.Logo{
+    width: 225px;
+    height: 40px;
+}
+
+.buttons{
+    display: flex;
+    gap: 43px;
+}
+
+.Sgn,.CFA{
+   border-radius: 8px;
+   border: 1px solid;
+   outline: none;
+   font-family: Poppins;
+}
+
+.Sgn{
+    width: 145px;
+    height: 57px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.CFA{
+    padding: 1rem;
+    width: 185px;
+    height: 57px;
+    background-color: #0C1825;
+    color: white;
+    cursor: pointer;
+}
+
+#bar{
+    display: none;
+    
+}
+
+.first_section{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 200px;
+    height: 700px;
+    justify-content: space-between;
+}
+.article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: left;
+}
+
+.inner_article{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero_text{
+    font-size: 56px;
+}
+
+.article p{
+    margin-top: 30px;
+}
+
+#apple,#android{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    width: 148px;
+    height: 57px;
+    border-radius: 8px;
+    justify-content: center;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.images{
+    width: 500px;
+    height: 520px;
+}
+
+@media(max-width: 768px) {
+    #bar{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .buttons{
+        display: none;
+    }
+
+    .Logo{
+        width: 150px;
+        height: 30px;
+    }
+}

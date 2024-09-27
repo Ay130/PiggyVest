@@ -225,6 +225,10 @@ header {
         font-size: 1.5rem;
     }
 
+    .four-corners {
+        display: none;
+    }
+
     nav {
         display: none;
     }
@@ -256,5 +260,32 @@ header {
         left: initial;
         position: static;
         margin: auto;
+    }
+
+    .hero_text{
+        font-size: 35px;
+        margin-top: 2rem;
+    }
+
+    .article p{
+        font-size: 11px;
+        margin-top: 0.5rem;
+    }
+
+    .CFA{
+        margin-left: 3rem;
+    }
+
+    .Sgn{
+        width: 145px;
+        height: 57px;
+        background-color: #fff;
+        cursor: pointer;
+        margin-left: 3rem;
+    }
+
+    .buttons2{
+        display: flex;
+        justify-content: center;
     }
 }
